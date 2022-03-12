@@ -7,4 +7,4 @@ jobs:  								# gather all the jobs that run in the workflow
     runs-on: ubuntu-latest   		# Set the type of machine to run on
     steps:
       - name: Security vulnerabilities scan
-        uses: aufdenpunkt/python-safety-check
+        uses: aufdenpunkt/python-safety-check@chatbot.py
