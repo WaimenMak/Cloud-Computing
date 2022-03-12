@@ -6,8 +6,5 @@ jobs:  								# gather all the jobs that run in the workflow
   check-job:
     runs-on: ubuntu-latest   		# Set the type of machine to run on
     steps:
-      -name: Check out
-      - uses: actions/checkout@v2   # Step 1: Checks out a copy of your repository on the ubuntu-latest machine
-        
       - name: Security vulnerabilities scan
         uses: aufdenpunkt/python-safety-check@main
